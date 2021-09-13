@@ -21,12 +21,12 @@ import WeatherContext from "../weatherContext";
       <input
         type="text"
         className="search-bar"
-        placeholder="Search..."
+        placeholder="Rechercher..."
         onChange={(e) => setQuery(e.target.value)}
         value={query}
         onKeyPress={handleKeyPress}
       />
-      <button onClick={submit}>Go!</button>
+      <button onClick={submit}>C'est parti!</button>
     </div>
   );
 };
